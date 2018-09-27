@@ -1,3 +1,5 @@
+
+
 package com.sample.qa.testcases;
 
 import org.testng.annotations.Test;
@@ -16,6 +18,11 @@ public class LoginPageTest extends TestBase {
 		
 	}
 	
+	
+	@Test(priority=2)
+	public void LoginPageTestSecs() {
+		// TODO Auto-generated constructor stub
+		system.out.println("changed method which is added); }
 	
 	
 
